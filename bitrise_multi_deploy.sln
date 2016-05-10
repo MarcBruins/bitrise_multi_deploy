@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bitrise_multi_deploy.Droid"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bitrise_multi_deploy", "bitrise_multi_deploy\bitrise_multi_deploy.csproj", "{8F474A65-6A41-405E-B1C1-93F6064D6F5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid2", "Droid2\Droid2.csproj", "{ED36EE81-DE69-4B19-96B9-7AAED2C35C9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Droid3", "Droid3\Droid3.csproj", "{ED168E8F-4526-4084-991E-5C879695FC48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +23,13 @@ Global
 		{8F474A65-6A41-405E-B1C1-93F6064D6F5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F474A65-6A41-405E-B1C1-93F6064D6F5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F474A65-6A41-405E-B1C1-93F6064D6F5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED36EE81-DE69-4B19-96B9-7AAED2C35C9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED36EE81-DE69-4B19-96B9-7AAED2C35C9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED36EE81-DE69-4B19-96B9-7AAED2C35C9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED36EE81-DE69-4B19-96B9-7AAED2C35C9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED168E8F-4526-4084-991E-5C879695FC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED168E8F-4526-4084-991E-5C879695FC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED168E8F-4526-4084-991E-5C879695FC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED168E8F-4526-4084-991E-5C879695FC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -2,9 +2,9 @@
 using Android.Widget;
 using Android.OS;
 
-namespace bitrise_multi_deploy.Droid
+namespace Droid3
 {
-	[Activity(Label = "bitrise-multi-deploy", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity(Label = "Droid3", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 		int count = 1;
@@ -20,7 +20,7 @@ namespace bitrise_multi_deploy.Droid
 			// and attach an event to it
 			Button button = FindViewById<Button>(Resource.Id.myButton);
 
-			button.Click += delegate { button.Text = string.Format("Droid1 {0} clicks!", count++); };
+			button.Click += delegate { button.Text = string.Format("Droid3 {0} clicks!", count++); };
 		}
 	}
 }
